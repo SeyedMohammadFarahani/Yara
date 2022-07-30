@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <com.ansarbank.room.widget.Text
+        android:id="@+id/appCompatTextView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_horizontal"
+        android:text="ورود به راهرو"
+        android:textColor="#212121"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line1" />
+
+
+    <com.ansarbank.room.widget.Text
+        android:id="@+id/appCompatTextView2"
+        android:layout_width="@dimen/_192sdp"
+        android:layout_height="@dimen/_27sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_horizontal"
+        android:text="لطفا شماره موبایل خود را وارد کنید"
+        android:textColor="#212121"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l2"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
+
+    <com.ansarbank.room.widget.EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="49dp"
+        android:background="@drawable/edittext_back"
+        android:drawableEnd="@drawable/group"
+        android:drawableRight="@drawable/group"
+        android:gravity="center"
+        android:hint="شماره موبایل"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:paddingRight="8dp"
+        android:shadowColor="#41000000"
+        android:singleLine="true"
+        android:textColor="#b4b4b4"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerError2" />
+
+    <com.ansarbank.room.widget.Btn
+        android:id="@+id/registerButton"
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/register_button"
+        android:gravity="center"
+        android:text="دریافت کد فعال سازی"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l2"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/phoneEditText" />
+
+    <ImageView
+        android:id="@+id/enter"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/group_3"
+        app:layout_constraintEnd_toStartOf="@+id/l2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/appCompatTextView"
+        app:layout_constraintTop_toTopOf="@+id/line1" />
+
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.345" />
+
+    <com.ansarbank.room.widget.Text
+        android:id="@+id/registerError2"
+        android:layout_width="@dimen/_203sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_horizontal"
+        android:text="نمونه: +989121785143 "
+        android:textColor="#b4b4b4"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l2"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView2" />
+
+</android.support.constraint.ConstraintLayout>

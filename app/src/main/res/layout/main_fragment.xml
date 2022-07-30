@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefefe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.Guideline
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.02" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.98" />
+
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text21"
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="شارژ تلفن همراه  "
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="0.67"
+                app:layout_constraintStart_toEndOf="@+id/text2"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton1" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text6"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:text="تسهیلات"
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/text5"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton6" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text7"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text=" بایگانی  "
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toEndOf="@+id/text8"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton7" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text8"
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="موجودی کارت"
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton8" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text9"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:text="خیریه"
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/text8"
+                app:layout_constraintHorizontal_bias="0.547"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton9" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text4"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="انتقال وجه  "
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toEndOf="@+id/text5"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton4" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text5"
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="بسته های اینترنت"
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton5" />
+
+            <ImageButton
+                android:id="@+id/mainButton6"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/tashilat"
+                app:layout_constraintEnd_toStartOf="@+id/mainButton5"
+                app:layout_constraintHorizontal_bias="0.283"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+            <ImageButton
+                android:id="@+id/mainButton5"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/internet"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+            <ImageButton
+                android:id="@+id/mainButton4"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/transfer"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="0.82"
+                app:layout_constraintStart_toEndOf="@+id/mainButton5"
+                app:layout_constraintTop_toBottomOf="@+id/text21" />
+
+            <ImageButton
+                android:id="@+id/mainButton7"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/documents"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="0.82"
+                app:layout_constraintStart_toEndOf="@+id/mainButton8"
+                app:layout_constraintTop_toBottomOf="@+id/text4"
+                app:layout_constraintVertical_bias="0.033" />
+
+            <ImageButton
+                android:id="@+id/mainButton9"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keirieh"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/mainButton8"
+                app:layout_constraintHorizontal_bias="0.283"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text6"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageButton
+                android:id="@+id/mainButton2"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ghabz"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/mainButton3"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/card"
+                app:layout_constraintEnd_toStartOf="@+id/mainButton2"
+                app:layout_constraintHorizontal_bias="0.28"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageButton
+                android:id="@+id/mainButton8"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/driving"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text5"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <ImageButton
+                android:id="@+id/mainButton1"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/main_fragment_button"
+                android:elevation="@dimen/_7sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/mobileicon"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="0.82"
+                app:layout_constraintStart_toEndOf="@+id/mainButton2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text2"
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="پرداخت قبوض"
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton2" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text3"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:text="مدیریت کارت ها"
+                android:textColor="#4a4a4a"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/text2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/mainButton3" />
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

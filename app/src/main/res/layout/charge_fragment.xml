@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.Guideline
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.03" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/l5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.97" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text12"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="شماره همراه "
+                android:textColor="#2a2e33"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintTop_toBottomOf="@+id/chargeButton5" />
+
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text10"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="شماره کارت"
+                android:textColor="#2a2e33"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintTop_toBottomOf="@+id/mobileNumber" />
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/text11"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="رمز دوم"
+                android:textColor="#2a2e33"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintTop_toBottomOf="@+id/cardNember" />
+
+            <com.ansarbank.room.widget.Btn
+                android:id="@+id/chargeButton2"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/chargefragment_button_press"
+                android:elevation="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_4sdp"
+                android:text="20,000 ریالی "
+                android:textAlignment="center"
+                android:textColor="#626263"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <com.ansarbank.room.widget.Btn
+                android:id="@+id/chargeButton5"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/chargefragment_button_press"
+                android:elevation="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_4sdp"
+                android:text="100,000  ریالی  "
+                android:textAlignment="center"
+                android:textColor="#626263"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/l5"
+                app:layout_constraintTop_toBottomOf="@+id/chargeButton2" />
+
+            <com.ansarbank.room.widget.Btn
+                android:id="@+id/chargeButton6"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/chargefragment_button_press"
+                android:elevation="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_4sdp"
+                android:text="200,000 ریالی  "
+                android:textAlignment="center"
+                android:textColor="#626263"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/l5"
+                app:layout_constraintTop_toBottomOf="@+id/chargeButton2" />
+
+            <com.ansarbank.room.widget.Btn
+                android:id="@+id/chargeButton4"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginRight="64dp"
+                android:background="@drawable/chargefragment_button_press"
+                android:elevation="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_4sdp"
+                android:text="50,000 ریالی "
+                android:textAlignment="center"
+                android:textColor="#626263"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/l5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <com.ansarbank.room.widget.Btn
+                android:id="@+id/chargeButton1"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/chargefragment_button_press"
+                android:elevation="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_4sdp"
+                android:text="10,000 ریالی "
+                android:textAlignment="center"
+                android:textColor="#626263"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/l5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.ansarbank.room.widget.MyAutoComplete
+                android:id="@+id/cardNember"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:background="@drawable/charge_edittext_back"
+                android:drawableRight="@drawable/cardicon"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="16"
+                android:padding="@dimen/_7sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text10" />
+
+            <com.ansarbank.room.widget.EditText
+                android:id="@+id/serialNumber"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:background="@drawable/charge_edittext_back"
+                android:drawableRight="@drawable/cardicon2"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:maxLength="12"
+                android:padding="@dimen/_7sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text11" />
+
+            <com.ansarbank.room.widget.EditText
+                android:id="@+id/mobileNumber"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:background="@drawable/charge_edittext_back"
+                android:drawableRight="@drawable/mobileicon2small"
+                android:gravity="center"
+                android:maxLength="13"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="#448aff"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/text12" />
+
+            <com.ansarbank.room.widget.Btn
+                android:id="@+id/confirmeButton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/charge_button_back"
+                android:drawableRight="@drawable/forward"
+                android:elevation="@dimen/_4sdp"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="تایید و ادامه"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/l1"
+                app:layout_constraintTop_toBottomOf="@+id/serialNumber"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

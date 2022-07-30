@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.alirezaafkar.toolbar.RtlToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/toolbar"
+            android:navigationBarColor="#FFFFFF"
+            app:direction="rtl"
+            app:font_path="C:\Users\SMF\AndroidStudioProjects\Room\app\src\main\isans.ttf"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/menu"
+            app:optionsMenu="@menu/menu"
+            app:titleTextColor="@color/white">
+
+            <com.ansarbank.room.widget.Text
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="خدمات بانکی"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold" />
+
+        </com.alirezaafkar.toolbar.RtlToolbar>
+
+        <FrameLayout
+            android:id="@+id/frag"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#fafafa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        </FrameLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:backgroundTint="#ffffff"
+        app:headerLayout="@layout/header"
+        app:itemBackground="@android:color/white"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="@color/white">
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginTop="200dp" />
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

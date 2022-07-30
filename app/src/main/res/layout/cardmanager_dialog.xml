@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ansarbank.room.widget.Text
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="نمونه: 99/10"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cardDate"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/cardDate"
+        app:layout_constraintTop_toBottomOf="@+id/cardDate" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+    <android.support.constraint.Guideline
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+    <android.support.constraint.Guideline
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <com.ansarbank.room.widget.Text
+        android:id="@+id/text17"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_59sdp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="ایجاد کارت جدید"
+        android:textColor="#2a2e33"
+        android:textSize="@dimen/_24ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l1"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.ansarbank.room.widget.EditText
+        android:id="@+id/cardDate"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/card_edittext_back"
+        android:gravity="center"
+        android:hint="تاریخ انقضا"
+        android:inputType="text"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:textSize="@dimen/_21ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardNumber" />
+
+    <EditText
+        android:id="@+id/cardCCV2"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/card_edittext_back"
+        android:gravity="center"
+        android:hint="CCV2"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/cardNumber" />
+
+    <com.ansarbank.room.widget.EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/card_edittext_back"
+        android:gravity="center"
+        android:hint="شماره کارت"
+        android:inputType="numberDecimal"
+        android:maxLength="16"
+
+        android:singleLine="true"
+        android:textSize="@dimen/_21ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l3"
+        app:layout_constraintStart_toStartOf="@+id/l2"
+        app:layout_constraintTop_toBottomOf="@+id/cardName" />
+
+    <com.ansarbank.room.widget.EditText
+        android:id="@+id/cardName"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/card_edittext_back"
+        android:gravity="center"
+        android:hint="نام دارنده ی کارت"
+        android:inputType="textPersonName"
+        android:maxLength="40"
+
+        android:singleLine="true"
+        android:textSize="@dimen/_21ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l3"
+        app:layout_constraintStart_toStartOf="@+id/l2"
+        app:layout_constraintTop_toBottomOf="@+id/text17" />
+
+    <com.ansarbank.room.widget.Btn
+        android:id="@+id/cancleButton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="56dp"
+        android:background="#e4e4e4"
+        android:gravity="center"
+        android:text="لغو"
+        android:textColor="#898989"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/l1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardDate" />
+
+    <com.ansarbank.room.widget.Btn
+        android:id="@+id/createbutton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="56dp"
+        android:background="@color/buttonColor"
+        android:gravity="center"
+        android:text="ایجاد"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/cardCCV2" />
+
+
+</android.support.constraint.ConstraintLayout>

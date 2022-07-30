@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#7090fd</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem" />
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem" />
+
+    <style name="CustomViewAllTab" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">isans.tff</item>
+    </style>
+</resources>

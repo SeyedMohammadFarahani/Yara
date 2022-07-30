@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#F70008</color>
+    <color name="blue">#0C86E9</color>
+    <color name="BlueDarak">#005D8A</color>
+    <color name="them">#16B1C5</color>
+    <color name="white">#FFFDFD</color>
+    <color name="green">#0DAF0F</color>
+    <color name="orange">#EB4B1B</color>
+    <color name="yellow">#FFBA00</color>
+    <color name="statusBar">#2962ff</color>
+    <color name="pink">#f0fd7a97</color>
+    <color name="buttonColor">#448aff</color>
+    <color name="buttonTextColor">#626263</color>
+    <color name="background">#f0f0f0</color>
+    <color name="hamrah">#58C4CE</color>
+    <color name="rightel">#C544A0</color>
+    <color name="tele">#5A8EBD</color>
+    <color name="header">#49AEF0</color>
+
+
+</resources>

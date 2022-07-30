@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">Rahro</string>
+
+    <string name="register1">لطفا یک شماره همراه وارد کنید</string>
+    <string name="register2">این شماره در حال حاضر ثبت شده است</string>
+    <string name="register3">شماره همراه وارد شده معتبر نمی باشد</string>
+    <string name="register5">شماره همراه وارد شده با اپراتور همخوانی ندارد</string>
+    <string name="register4">+989121234567</string>
+
+    <string name="base1">لطفا نام صاحب کارت را وارد کنید</string>
+    <string name="base2">لطفا شماره کارت خود را وارد کنید</string>
+    <string name="base3">شماره کارت وارد شده صحیح نمی باشد</string>
+    <string name="base4">این کارت قبلا ثبت شده است</string>
+    <string name="base5">لطفا تاریخ انقضای کارت خود را وارد کنید</string>
+    <string name="base6">تاریخ وارد شده صحیح نمی باشد</string>
+    <string name="base7">تاریخ انقضای کارت به اتمام رسیده است</string>
+    <string name="base8">لطفا کد کارت خود را وارد کنید</string>
+    <string name="base9">کد وارد شده صحیح نمی باشد</string>
+    <string name="base10">کارت جدید اضافه شد</string>
+
+    <string name="charge1">لطفا رمز اینترنتی خود را وارد کنید</string>
+    <string name="charge2">رمز اینترنتی نمیتواند از 5 رقم کمتر باشد</string>
+
+    <string name="document1">شارژ</string>
+    <string name="document2">قبوض</string>
+    <string name="document3">تسهیلات</string>
+    <string name="document4">انتقال وجه</string>
+
+    <string name="driving1">لطفا آدرس ایمیل خود را وارد کنید</string>
+    <string name="driving2">آدرس ایمیل وارد شده معتبر نمی باشد</string>
+    <string name="driving3">لطفا شناسه قبض را وارد کنید</string>
+    <string name="driving4">شناسه قبض وارد شده صحیح نمی باشد</string>
+    <string name="driving5">لطفا شناسه پرداخت را وارد کنید</string>
+    <string name="driving6">شناسه پرداخت وارد شده صحیح نمی باشد</string>
+    <string name="driving7">شناسه وارد شده مربوط به جرایم رانندگی نیست</string>
+
+    <string name="profile">تغییرات اضافه شد</string>
+
+    <string name="tashilat1">لطفا شماره تسهیلات وارد کنید</string>
+    <string name="tashilat2">شماره تسهیلات وارد شده معتبر نمی باشد</string>
+    <string name="tashilat3">شماره کارت مبدا و تسهیلات نمی توانند یکسان باشند</string>
+    <string name="tashilat4">لطفا شماره کارت مبدا را وارد کنید</string>
+    <string name="tashilat5">لطفا مبلغ مورد نظر را وارد کنید</string>
+    <string name="tashilat6">حداقل مبلغ برای تسهیلات 20000 ریال می باشد</string>
+
+    <string name="transfer1">لطفا شماره کارت مقصد وارد کنید</string>
+    <string name="transfer2">شماره کارت مبدا و مقصد نمی توانند یکسان باشند</string>
+    <string name="transfer3">لطفا شماره کارت مبدا را وارد کنید</string>
+    <string name="transfer4">حداقل مبلغ قابل انتقال 20,000 ریال می باشد</string>
+    <string name="transfer5">حداکثر مبلغ قابل انتقال 30,000,000 ریال می باشد</string>
+
+    <string name="mainTitle">خدمات بانکی</string>
+    <string name="Title1">مدیریت کارت ها</string>
+    <string name="Title2">شارژ تلفن همراه</string>
+    <string name="Title3">بایگانی</string>
+    <string name="Title4">موجودی کارت</string>
+    <string name="Title5">پرداخت قبوض</string>
+    <string name="Title6">حساب کاربری</string>
+    <string name="Title7">تسهیلات</string>
+    <string name="Title8">انتقال وجه</string>
+    <string name="Title9">بسته های اینترنت</string>
+    <string name="Title10">خیریه</string>
+
+    <string name="list1">حساب کاربری</string>
+
+    <string name="action">قبض</string>
+    <string name="action1">شارژ موبایل</string>
+    <string name="action2">قبض جرایم راهنمایی و رانندگی</string>
+    <string name="action4">تسهیلات</string>
+    <string name="action5">انتقال</string>
+    <string name="action6">بسته های اینترنت</string>
+    <string name="action7">قبض آب</string>
+    <string name="action8">قبض برق</string>
+    <string name="action9">قبض گاز</string>
+    <string name="action11">قبض تلفن ثابت</string>
+    <string name="action12">قبض تلفن همراه</string>
+    <string name="action13">قبض عوارض شهرداری</string>
+    <string name="action14">قبض سازمان مالیات</string>
+
+    <string name="code1"> کد فعالسازی به شماره </string>
+    <string name="code2"> ارسال شد. </string>
+
+    <string name="reSend"> امکان درخواست برای ارسال مجدد کد </string>
+    <string name="reSend2">  : 0  </string>
+
+    <string name="enterCode">  لطفا کد فعال سازی را وارد کنید  </string>
+
+    <string name="charge">  شارژ  </string>
+    <string name="internet">  اینترنت  </string>
+
+    <string name="verification">  کد احراز هویت برای شما  </string>
+
+    <string name="error">کد فعال سازی صحیح نمی باشد</string>
+
+    <string name="delete_error">ابتدا کارت مورد نظر خود را انتخاب کنید</string>
+
+    <string name="charg_error">لطفا مبلغ مورد نظر برای شارژ گوشی خود را انتخاب کنید</string>
+
+    <string name="internet_error">لطفا بسته ی مورد نظر خود را انتخاب کنید</string>
+
+    <string name="kheirieh_error">لطفا صندوق مورد نظر خود را انتخاب کنید</string>
+
+    <string name="delete">آیا می خواهید کارت(های) انتخاب شده را حذف کنید؟</string>
+
+    <string name="deleteTransaction">آیا می خواهید این تراکنش حذف کنید؟</string>
+
+    <string name="deleteProf">آیا می خواهید تصویر پروفایل خود را حذف کنید؟</string>
+
+    <string name="exit">آیا می خواهید از برنامه خارج شوید؟</string>
+
+    <string name="exit_account">آیا می خواهید از حساب کاربری خود خارج شوید؟</string>
+
+    <string name="transactionDialog">برای دیدن لیست تراکنش های خود به قسمت بایگانی مراجعه کنید</string>
+
+    <string name="noAction">هنوز تراکنشی ثبت نشده است</string>
+
+    <string name="operatorError">اپراتور خود را وارد کنید</string>
+
+    <string name="timeError">سقف مبلغ مورد نظر خود را تعیین کنید</string>
+
+    <string name="modelError">بازه ی زمانی مورد نظر خود را وارد کنید</string>
+
+    <string name="tranfer">هنوز کارتی ثبت نشده است!
+برای انتقال وجه ابتدا باید از قسمت «مدیریت کارت‌ها» یک کارت جدید ایجاد کنید </string>
+
+    <string name="cardManger">هنوز کارتی ثبت نشده است!
+برای اضافه کردن کارت جدید بر روی علامت + کلیک کنید</string>
+
+    <string name="Tehran">تهران</string>
+    <string name="Mashhad">خراسان رضوی</string>
+    <string name="Markazi">مرکزی</string>
+    <string name="Fars">فارس</string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+    <string name="cameraError">دسترسی برنامه به دوربین محدود شده است</string>
+
+    <string-array name="tehran">
+        <item>آبشار عاطفه ها</item>
+        <item>موسسه خیریه عروج نیکان</item>
+        <item>موسسه خیریه ایلیا</item>
+        <item>موسسه خیریه فردای سبز دانشگاه شریف</item>
+    </string-array>
+
+    <string-array name="mashhad">
+        <item>بهشت امام رضا(علیه السلام)</item>
+        <item>موسسه خیریه حضرت فاطمه زهرا(سلام الله علیها)</item>
+        <item>هم اندیشان محبت</item>
+    </string-array>
+
+    <string-array name="markazi">
+        <item>خیریه خادمان ولایت</item>
+        <item>موسسه خیریه شاخه امید طوبی</item>
+        <item>بنیاد زینب کبری(سلام الله علیها)</item>
+    </string-array>
+
+    <string-array name="fars">
+        <item>موسسه خیریه ولی نعمتان</item>
+        <item>بنیاد رشد</item>
+        <item>خیریه مولود کعبه</item>
+    </string-array>
+
+    <!--IrancellInternet-->
+
+    <string name="hourlyIrancell">ساعتی</string>
+    <string name="oneDayIrancell">روزانه</string>
+    <string name="threeDayIrancell">3 روزه</string>
+    <string name="oneWeekIrancell">7 روزه</string>
+    <string name="fifteenIrancell">15 روزه</string>
+    <string name="thirtyIrancell">30 روزه</string>
+    <string name="sixtyIrancell">60 روزه</string>
+    <string name="ninetyIrancell">90 روزه</string>
+    <string name="oneHundredAndTwentyIrancell">120 روزه</string>
+    <string name="oneHundredAndFiftyIrancell">150 روزه</string>
+    <string name="oneHundredAndEightyIrancell">180 روزه</string>
+    <string name="oneYearIrancell">365 روزه</string>
+    <string name="accessibility_service_description">my app</string>
+    <string name="enter">ورود به حساب کاربری</string>
+
+    <string-array name="HourlyIrancell">
+        <item>نامحدود یک ساعته(2 تا 8 صبح)900 تومان</item>
+        <item>نامحدود دو ساعته(2 تا 8 صبح)1500 تومان</item>
+        <item>نامحدود سه ساعته(2 تا 8 صبح)2000 تومان</item>
+        <item>1 گیگابایت 1 ساعته(8صبح تا2صبح)2000 تومان</item>
+        <item>2 گیگابایت 2ساعته(8 صبح تا 2 صبح)3000 تومان</item>
+        <item>3 گیگابایت 3ساعته(8 صبح تا 2 صبح)4000 تومان</item>
+    </string-array>
+
+    <string-array name="HourlyRightel">
+        <item>۰/۵ ساعت نامحدود (۲ تا ۷ صبح)500 تومان</item>
+        <item>۰/۵ ساعت نامحدود 2500 تومان</item>
+        <item>2 ساعت نامحدود (۲ تا ۷ صبح)1500 تومان</item>
+        <item>3 ساعت نامحدود 6000 تومان</item>
+        <item>4 ساعت نامحدود (۲ تا ۷ صبح)2700 تومان</item>
+    </string-array>
+
+    <string-array name="OneDayIrancell">
+        <item>60 مگابایات 1600 تومان</item>
+        <item>100 مکابایت 2200 تومان</item>
+        <item>200 مگابایت 3200 تومان</item>
+        <item>300 مگابایت 3900 تومان</item>
+        <item>400 مگابایت 4500 تومان</item>
+        <item>750 مگابایت 5700 تومان</item>
+        <item>1 گیگابایت 900 تومان</item>
+        <item>1.5 گیگابایت 7400 تومان</item>
+        <item>2.5 گیگابایت 9400 تومان</item>
+    </string-array>
+
+    <string-array name="OneDayRightel">
+        <item>0/04 گیگابایت 1000 تومان</item>
+        <item>0/1+0/1 گیگابایت 2000 تومان</item>
+        <item>0/15 گیگابایت 2300 تومان</item>
+        <item>0/3+0/2 گیگابایت 3000 تومان</item>
+        <item>0/25 گیگابایت 3500 تومان</item>
+        <item>0/7+0/3 گیگابایت 3900 تومان</item>
+        <item>1/2 گیگابایت 6300 تومان</item>
+        <item>3 گیگابایت 9000 تومان</item>
+        <item>1/0+0/0 گیگابایت 500 تومان</item>
+        <item>نا محدود(ساعات ۳ تا۹ صبح)2400 تومان</item>
+    </string-array>
+
+    <string-array name="OneDayHamrah">
+        <item>1 گیگابایت(2 تا 7 صبح)900 تومان</item>
+        <item>نامحدود تا20 گیگابایت(2 تا 7 صبح)1900 تومان</item>
+        <item>نامحدود تا50 گیگابایت(1 تا 11 صبح)3900 تومان</item>
+        <item>250 مگابایات 3600 تومان</item>
+        <item>500 مکابایت 4900 تومان</item>
+        <item>750 مگابایت 5900 تومان</item>
+        <item>1 گیگابایت 6400 تومان</item>
+        <item>2 گیگابایت 8400 تومان</item>
+        <item>3 گیگابایت 9900 تومان</item>
+    </string-array>
+
+    <string-array name="ThreeDayIrancell">
+        <item>150 مکابایت 3500 تومان</item>
+        <item>250 مگابایت 4400 تومان</item>
+        <item>400 مگابایت 5300 تومان</item>
+        <item>750 مگابایت 6700 تومان</item>
+        <item>1.5 گیگابایت 9000 تومان</item>
+        <item>2.5 گیگابایت 11000 تومان</item>
+    </string-array>
+
+    <string-array name="ThreeDayRightel">
+        <item>0/6+0/3 گیگابایت 5000 تومان</item>
+        <item>0/35 گیگابایت 5200 تومان</item>
+        <item>0/8+0/4 گیگابایت 6000 تومان</item>
+        <item>0/5 گیگابایت 5700 تومان</item>
+        <item>1/5 گیگابایت 7200 تومان</item>
+        <item>3 گیگابایت 11000 تومان</item>
+    </string-array>
+
+    <string-array name="OneWeekIrancell">
+        <item>200 مگابایت 4400 تومان</item>
+        <item>300 مگابایت 5500 تومان</item>
+        <item>500 مگابایت 7000 تومان</item>
+        <item>750 مگابایت 8300 تومان</item>
+        <item>1.5 گیگابایت 10900 تومان</item>
+        <item>2 گیگابایت(2 تا 7 صبح)1500 تومان</item>
+        <item>2.5 گیگابایت 13000 تومان</item>
+        <item>4 گیگابایت(6صبح تا 12ظهر)4500 تومان</item>
+        <item>5 گیگابایت 18000 تومان</item>
+        <item>5 گیگابایت(2 تا 7 صبح)2500 تومان</item>
+        <item>6 گیگابایت(6صبح تا 12ظهر)5500 تومان</item>
+    </string-array>
+
+    <string-array name="OneWeekRightel">
+        <item>0/1 گیگابایت 2200 تومان</item>
+        <item>0/15+0/15 گیگابایت 3300 تومان</item>
+        <item>0/2 گیگابایت 4000 تومان</item>
+        <item>0/3 گیگابایت 4900 تومان</item>
+        <item>1/0+0/6 گیگابایت 7500 تومان</item>
+        <item>0/7 گیگابایت 8000 تومان</item>
+        <item>5/0+1/2 گیگابایت 10000 تومان</item>
+        <item>5/0+2/5 گیگابایت 12500 تومان</item>
+        <item>3 گیگابایت 13500 تومان</item>
+        <item>3/5+3/5 گیگابایت 15000 تومان</item>
+        <item>نامحدود ساعات ۳تا ۹ صبح 4400 تومان</item>
+    </string-array>
+    <string-array name="OneWeekHamrah">
+        <item>نامحدود تا60 گیگابایت(2 تا 7 صبح)4900 تومان</item>
+        <item>نامحدود تا150 گیگابایت(1 تا 11 صبح)8900 تومان</item>
+        <item>3 گیگابایت(6صبح تا 12 ظهر)4000 تومان</item>
+        <item>5 گیگابایت(6صبح تا 12 ظهر)5000 تومان</item>
+        <item>6 گیگابایت(62 تا 7 صبح)2900 تومان</item>
+        <item>200 مگابایت 4400 تومان</item>
+        <item>300 مگابایت 5500 تومان</item>
+        <item>500 مگابایت 7000 تومان</item>
+        <item>750 مگابایت 8300 تومان</item>
+        <item>1.5 گیگابایت 10900 تومان</item>
+        <item>2.5 گیگابایت 13000 تومان</item>
+        <item>4 گیگابایت 16000 تومان</item>
+        <item>6 گیگابایت 19500 تومان</item>
+    </string-array>
+
+    <string-array name="FifteenIrancell">
+        <item>400 مگابایت 7000 تومان</item>
+        <item>750 مگابایت 9000 تومان</item>
+        <item>1.5 گیگابایت 11500 تومان</item>
+        <item>2.5 گیگابایت 14500 تومان</item>
+        <item>3.5 گیگابایت 16500 تومان</item>
+        <item>5 گیگابایت 18500 تومان</item>
+    </string-array>
+
+    <string-array name="FifteenRightel">
+        <item>0/2 گیگابایت 4400 تومان</item>
+        <item>0/65 گیگابایت 8000 تومان</item>
+        <item>1/5 گیگابایت 11500 تومان</item>
+        <item>3 گیگابایت 14000 تومان</item>
+        <item>5 گیگابایت 17500 تومان</item>
+        <item>۱۲گیگابایت ساعات 6 تا ۱۲ ظهر 5000 تومان</item>
+    </string-array>
+
+    <string-array name="ThirtyIrancell">
+        <item>1 گیگابایت 10500 تومان</item>
+        <item>2 گیگابایت 14000 تومان</item>
+        <item>3 گیگابایت 16500 تومان</item>
+        <item>4 گیگابایت 18500 تومان</item>
+        <item>5 گیگابایت 20500 تومان</item>
+        <item>5 گیگابایت(2 تا 7 صبح)4500 تومان</item>
+        <item>7 گیگابایت 24500 تومان</item>
+        <item>5 گیگابایت(6صبح تا 12ظهر)7500 تومان</item>
+        <item>10 گیگابایت 29500 تومان</item>
+        <item>10 گیگابایت(2 تا 7 صبح)8000 تومان</item>
+        <item>5 گیگابایت(6صبح تا 12ظهر)9000 تومان</item>
+        <item>10 گیگابایت(2 تا 7 صبح)9000 تومان</item>
+    </string-array>
+
+    <string-array name="ThirtyRightel">
+        <item>0/2+0/2 گیگابایت 5500 تومان</item>
+        <item>0/3 گیگابایت 5500 تومان</item>
+        <item>2+1 گیگابایت 10500 تومان</item>
+        <item>3/0+1/5 گیگابایت 12500 تومان</item>
+        <item>5/0+2/5 گیگابایت 15000 تومان</item>
+        <item>6+3 گیگابایت 15900 تومان</item>
+        <item>3/5 گیگابایت 17000 تومان</item>
+        <item>9/0+4/5 گیگابایت 18900 تومان</item>
+        <item>14+7 گیگابایت 23900 تومان</item>
+        <item>24+12 گیگابایت 32500 تومان</item>
+        <item>48+24 گیگابایت 48800 تومان</item>
+        <item>20+0 گیگابایت 7000 تومان</item>
+        <item>30+0 گیگابایت 10000 تومان</item>
+        <item>40+0 گیگابایت 13000 تومان</item>
+        <item>نامحدود ساعات ۳ تا ۹ صبح 20500 تومان</item>
+    </string-array>
+
+    <string-array name="ThirtyHamrah">
+        <item>نامحدود تا180 گیگابایت(2 تا 7 صبح)9900 تومان</item>
+        <item>نامحدود تا450 گیگابایت(1 تا 11 صبح)19900 تومان</item>
+        <item>8 گیگابایت(6صبح تا 12 ظهر)8000 تومان</item>
+        <item>12 گیگابایت(6صبح تا 12 ظهر)10000 تومان</item>
+        <item>12 گیگابایت(2 تا 7 صبح)5900 تومان</item>
+        <item>1 گیگابایت 10400 تومان</item>
+        <item>2 گیگابایت 13900 تومان</item>
+        <item>4 گیگابایت 18400 تومان</item>
+        <item>5 گیگابایت 20400 تومان</item>
+        <item>7 گیگابایت 24400 تومان</item>
+        <item>10 گیگابایت 29400 تومان</item>
+        <item>15 گیگابایت 36900 تومان</item>
+    </string-array>
+
+    <string-array name="SixtyIrancell">
+        <item>8 گیگابایت 32000 تومان</item>
+        <item>10 گیگابایت 36000 تومان</item>
+        <item>15 گیگابایت 46000 تومان</item>
+        <item>20 گیگابایت 60000 تومان</item>
+    </string-array>
+
+    <string-array name="SixtyHamrah">
+        <item>12 گیگابایت 40000 تومان</item>
+        <item>18 گیگابایت 54000 تومان</item>
+    </string-array>
+
+    <string-array name="NinetyIrancell">
+        <item>9 گیگابایت 33000 تومان</item>
+        <item>12 گیگابایت 37500 تومان</item>
+        <item>18 گیگابایت 47000 تومان</item>
+        <item>24 گیگابایت 58000 تومان</item>
+    </string-array>
+
+    <string-array name="NinetyRightel">
+        <item>4 گیگابایت 24000 تومان</item>
+        <item>9+9 گیگابایت 32000 تومان</item>
+        <item>15+15 گیگابایت 42000 تومان</item>
+        <item>36+36 گیگابایت 77000 تومان</item>
+    </string-array>
+
+    <string-array name="NinetyHamrah">
+        <item>10 گیگابایت 35000 تومان</item>
+        <item>16 گیگابایت 44000 تومان</item>
+        <item>25 گیگابایت 64000 تومان</item>
+        <item>35 گیگابایت 79000 تومان</item>
+    </string-array>
+
+    <string-array name="OneHundredAndTwentyIrancell">
+        <item>10 گیگابایت 42000 تومان</item>
+        <item>15 گیگابایت 54000 تومان</item>
+        <item>25 گیگابایت 78000 تومان</item>
+    </string-array>
+
+    <string-array name="OneHundredAndTwentyHamrah">
+        <item>15 گیگابایت 54000 تومان</item>
+        <item>25 گیگابایت 78000 تومان</item>
+    </string-array>
+
+    <string-array name="OneHundredAndEightyIrancell">
+        <item>10 گیگابایت 55000 تومان</item>
+        <item>15 گیگابایت 95000 تومان</item>
+        <item>25 گیگابایت 115000 تومان</item>
+    </string-array>
+
+    <string-array name="OneHundredAndEightyRightel">
+        <item>18+18 گیگابایت 58000 تومان</item>
+        <item>42+42 گیگابایت 99000 تومان</item>
+        <item>60+60 گیگابایت 125000 تومان</item>
+        <item>100+100 گیگابایت 199000 تومان</item>
+    </string-array>
+
+    <string-array name="OneHundredAndEightyHamrah">
+        <item>35 گیگابایت 99000 تومان</item>
+        <item>50 گیگابایت 115000 تومان</item>
+    </string-array>
+
+    <string-array name="OneYearIrancell">
+        <item>30 گیگابایت 90000 تومان</item>
+        <item>48 گیگابایت 120000 تومان</item>
+        <item>72 گیگابایت 155000 تومان</item>
+    </string-array>
+
+    <string-array name="OneYearRightel">
+        <item>10 گیگابایت 52000 تومان</item>
+        <item>74 گیگابایت 155000 تومان</item>
+        <item>200 گیگابایت 399000 تومان</item>
+    </string-array>
+
+    <string-array name="OneYearHamrah">
+        <item>30 گیگابایت 89000 تومان</item>
+        <item>45 گیگابایت 112000 تومان</item>
+        <item>70 گیگابایت 159000 تومان</item>
+    </string-array>
+
+
+</resources>
