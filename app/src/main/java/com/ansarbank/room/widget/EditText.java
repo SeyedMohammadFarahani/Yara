@@ -2,9 +2,8 @@ package com.ansarbank.room.widget;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
-
-import androidx.appcompat.widget.AppCompatEditText;
 
 public class EditText extends AppCompatEditText {
     public EditText(Context context) {

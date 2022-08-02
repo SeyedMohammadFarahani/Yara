@@ -18,8 +18,6 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.alirezaafkar.toolbar.RtlToolbar;
 import com.ansarbank.room.Adapter.MyAdapter;
 import com.ansarbank.room.Database.AppDatabase;

@@ -1,12 +1,10 @@
 package com.ansarbank.room.Adapter;
 
-import android.support.annotation.Nullable;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.ansarbank.room.Util.MyTab;
 

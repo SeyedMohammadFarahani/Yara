@@ -1,33 +1,25 @@
 package com.ansarbank.room.Adapter;
 
 import android.annotation.SuppressLint;
-import android.app.Dialog;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.ansarbank.room.Database.AppDatabase;
 import com.ansarbank.room.Database.Card.Card;
 import com.ansarbank.room.R;
 import com.ansarbank.room.Util.CNTextWatcher;
 import com.ansarbank.room.Util.Const;
-import com.ansarbank.room.widget.Btn;
 import com.ansarbank.room.widget.Credit;
 import com.ansarbank.room.widget.Text;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.RecycleViewHolder> {
     Context context;

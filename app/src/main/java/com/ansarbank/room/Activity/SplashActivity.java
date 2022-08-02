@@ -3,8 +3,7 @@ package com.ansarbank.room.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import com.ansarbank.room.MyApplication;
 import com.ansarbank.room.R;

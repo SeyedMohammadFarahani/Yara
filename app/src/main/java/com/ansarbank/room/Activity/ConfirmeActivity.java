@@ -1,5 +1,6 @@
 package com.ansarbank.room.Activity;
 
+import android.annotation.SuppressLint;
 import android.app.NotificationManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -9,10 +10,9 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.IBinder;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.ansarbank.room.MyApplication;
 import com.ansarbank.room.R;
@@ -68,6 +68,7 @@ public class ConfirmeActivity extends AppCompatActivity {
         confirmetext.setText(" " + getResources().getString(R.string.code1) + " " + phone + " " + getResources().getString(R.string.code2) + " ");
 
         ConfirmeButton.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
             @Override
             public void onClick(View v) {
                 getCodeString = confirmeEditText.getText().toString();
